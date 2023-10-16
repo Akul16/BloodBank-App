@@ -15,5 +15,8 @@ app.use('/api/users', userRoute);
 app.use("/api/inventory", inventoryRoute);
 app.use("/api/dashboard", dashboardRoute);
 
+const path = require("path");
+__dirname = path.resolve();
+
 
 app.listen(port, () => console.log(`Server Started at ${port}`));
