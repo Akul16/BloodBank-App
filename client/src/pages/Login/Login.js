@@ -70,7 +70,7 @@ const Login = () => {
                     <Input type="password" />
                 </Form.Item>
 
-                <Button type="bg-primary" block className="bg-primary" htmlType="submit">
+                <Button type="primary" block className="bg-primary" htmlType="submit">
                     Login
                 </Button>
 
